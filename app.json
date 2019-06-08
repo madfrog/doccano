@@ -29,7 +29,8 @@
             "description": "Debug mode or not.",
             "required": false,
             "value": "False"
-        }
+        },
+        "DISABLE_COLLECTSTATIC": "1"
     },
     "scripts": {
         "postdeploy": "sh tools/heroku.sh deploy"
