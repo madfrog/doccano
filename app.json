@@ -29,8 +29,7 @@
             "description": "Debug mode or not.",
             "required": false,
             "value": "False"
-        },
-        "DISABLE_COLLECTSTATIC": "1"
+        }
     },
     "scripts": {
         "postdeploy": "sh tools/heroku.sh deploy"
@@ -42,10 +41,10 @@
     ],
     "buildpacks": [
         {
-            "url": "heroku/nodejs"
+            "url": "heroku/python"
         },
         {
-            "url": "heroku/python"
+            "url": "heroku/nodejs"
         }
     ]
 }
